@@ -1,0 +1,14 @@
+.grid{
+    display: grid;
+    grid-template-rows: repeat(10,35px);
+    grid-template-columns: repeat(10,35px);
+    user-select: none;
+}
+.box{
+    height: 35px;width: 35px;display: flex;
+    justify-content: center;align-items: center;
+    border: 1px solid black;
+}
+.selected{
+    background-color: yellow;
+}
